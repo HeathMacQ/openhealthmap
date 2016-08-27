@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a learning app that applies one month rails to build an open health map 
+by [Health Mac] (http://github.com/heathmacq) 
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby v. 2.3.0
 
-* System dependencies
+* Deployment instructions #will be added when we make a working app
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
