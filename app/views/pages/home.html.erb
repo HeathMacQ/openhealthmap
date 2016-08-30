@@ -1,11 +1,40 @@
-	<%= link_to "Home", root_path %>
-	<%= link_to "Geography", geography_path %>
-
-<h1>Welcome to the Open Source Health Map</h1>
-<h2>mapping open source projects related to health care</h2>
+	
+<h1>Welcome! We are mapping open source projects in health care</h1>
 
 
 
 <body>
-	Contribute to the open source health map: <%= link_to "add a project here", "#" %>
+<div class="jumbotron">
+  <div class="container">
+  <center><h2>Open Health Map</h2></center>
+  
+  <p> 
+  	<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+         <%= link_to "Add a project", "#", class: "btn btn-primary btn" %> 
+      </span>
+      <input type="text" class="form-control" placeholder="enter the project URL">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Keyword Search OS Projects in Health...">
+      <span class="input-group-btn">
+        <%= link_to "View Projects", "#", class: "btn btn-warning btn" %> 
+       
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+  </p>
+     
+  </div>
+
+</div>
+	
 </body>
+
+
