@@ -34,6 +34,10 @@ class PagesController < ApplicationController
 
   def community
   end
+
+  def addurl
+  end
+  
   
 
 end

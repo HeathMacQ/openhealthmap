@@ -23,5 +23,7 @@ get "project" => "pages#project.html.erb"
 
 get "search" => "pages#search.html.erb"
 
+get "addurl" => "pages#addurl.html.erb"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
