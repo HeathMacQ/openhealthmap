@@ -38,6 +38,8 @@ class PagesController < ApplicationController
   def addurl
   end
   
+  def login
+  end
   
 
 end
